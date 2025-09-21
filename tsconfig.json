@@ -1,8 +1,22 @@
 {
   "compilerOptions": {
-    "outDir": "./dist",
-    "types": []
+    "target": "ES2020",
+    "lib": ["DOM", "DOM.Iterable", "ES2020"],   // ✅ Fixes Promise & Iterable errors
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "jsx": "react-jsx",
+    "esModuleInterop": true,                    // ✅ Fixes react default import errors
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
-  "include": ["src/**/*.ts", "src/**/*.tsx"],
+  "include": ["src"],
   "exclude": ["node_modules", "dist"]
 }
