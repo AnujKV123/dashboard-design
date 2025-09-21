@@ -284,6 +284,7 @@ export const Dashboard = () => {
                                     {({ geographies }: { geographies: GeographyType[] }) =>
                                         geographies.map((geo: GeographyType) => (
                                         <Geography key={geo.rsmKey} geography={geo} 
+                                        // @ts-ignore
                                         style={{
                                           default: {
                                             fill: "var(--Secondary-Cyan, hsla(205, 40%, 76%, 1))",
