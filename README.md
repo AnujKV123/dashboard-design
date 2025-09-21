@@ -10,6 +10,10 @@ This frontend dashboard is a sleek, user-centric interface designed to deliver r
 - **Icons**: Lucide React
 - **Styling**: tailwind & shadCn
 
+## 📽️ Demos
+- 🌐 Live Demo: https://dashboard-design-new.netlify.app
+- 🎥 Demo Video: https://drive.google.com/file/d/1PQ-Vfgs0XRdS4m5cdpEy_q2H9YwDEfYQ/view
+
 ## 🛠️ Setup Instructions
 
 ### Prerequisites
