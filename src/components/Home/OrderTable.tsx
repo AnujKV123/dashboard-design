@@ -164,25 +164,25 @@ export default function OrderTable() {
         <TableBody>
           {filtered.map((order) => (
             <TableRow onMouseEnter={() => setShowMoreId(order.id)} onMouseLeave={() => setShowMoreId("")} key={order.id}>
-              <TableCell><Checkbox /></TableCell>
-              <TableCell>{order.id}</TableCell>
-              <TableCell>
-                <div className="flex items-center gap-2">
+              <TableCell className="text-left"><Checkbox /></TableCell>
+              <TableCell className="text-left">{order.id}</TableCell>
+              <TableCell className="text-left">
+                <div className="flex items-center gap-2 text-left">
                   <img src={order.user.avatar} className="w-8 h-8 rounded-full" />
                   <span>{order.user.name}</span>
                 </div>
               </TableCell>
-              <TableCell>{order.project}</TableCell>
-              <TableCell>{order.address}</TableCell>
-              <TableCell className="flex items-center gap-1">
+              <TableCell className="text-left">{order.project}</TableCell>
+              <TableCell className="text-left">{order.address}</TableCell>
+              <TableCell className="flex items-center gap-1 text-left">
                 <Calendar className="w-4 h-4" /> {order.date}
               </TableCell>
-              <TableCell>
+              <TableCell className="text-left">
                 <span className={`font-medium ${statusColors[order.status]}`}>
                   {order.status}
                 </span>
               </TableCell>
-                <TableCell>
+                <TableCell className="text-left">
                 { showMoreId === order.id 
                   ?
                   <Button variant="ghost" size="icon">
