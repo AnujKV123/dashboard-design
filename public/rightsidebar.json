@@ -1,0 +1,23 @@
+{
+  "notifications": [
+    { "icon": "Bug", "title": "You have a bug that needs...", "time": "Just now" },
+    { "icon": "UserPlus", "title": "New user registered", "time": "59 minutes ago" },
+    { "icon": "Bug", "title": "You have a bug that needs...", "time": "12 hours ago" },
+    { "icon": "User", "title": "Andi Lane subscribed to you", "time": "Today, 11:59 AM" }
+  ],
+  "activities": [
+    { "avatar": null, "fallback": "YB", "title": "You have a bug that needs...", "time": "Just now" },
+    { "avatar": "https://i.pravatar.cc/40?img=11", "fallback": "RN", "title": "Released a new version", "time": "59 minutes ago" },
+    { "avatar": "https://i.pravatar.cc/40?img=12", "fallback": "SB", "title": "Submitted a bug", "time": "12 hours ago" },
+    { "avatar": "https://i.pravatar.cc/40?img=13", "fallback": "MD", "title": "Modified A data in Page X", "time": "Today, 11:59 AM" },
+    { "avatar": "https://i.pravatar.cc/40?img=14", "fallback": "DP", "title": "Deleted a page in Project X", "time": "Feb 2, 2023" }
+  ],
+  "contacts": [
+    { "avatar": "https://i.pravatar.cc/40?img=20", "fallback": "NC", "name": "Natali Craig" },
+    { "avatar": "https://i.pravatar.cc/40?img=21", "fallback": "DC", "name": "Drew Cano" },
+    { "avatar": "https://i.pravatar.cc/40?img=22", "fallback": "OD", "name": "Orlando Diggs" },
+    { "avatar": "https://i.pravatar.cc/40?img=23", "fallback": "AL", "name": "Andi Lane" },
+    { "avatar": "https://i.pravatar.cc/40?img=22", "fallback": "OD", "name": "Gigi Diggs" },
+    { "avatar": "https://i.pravatar.cc/40?img=20", "fallback": "NC", "name": "Sanjana Textile" }
+  ]
+}
